@@ -15,8 +15,8 @@
 <!-- Fim do Cabeçalho do Blog -->
 <!-- Início do corpo da página -->
 <div class="container-fluid">
-    <div class="row">
-        <main class="col-md-9">
+    <main class="row">
+        <section class="col-md-9">
             <?php 
             /**
              * The Loop
@@ -28,13 +28,13 @@
                 endwhile;
             endif;
             ?>
-        </main>
+        </section>
         <?php 
         /**
          * Retorna a barra de navegação lateral
          */
         ion_get_element( 'nav', 'side' );
         ?>
-    </div>
+    </main>
 </div>
 <!-- Fim de corpo de página -->

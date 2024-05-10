@@ -9,25 +9,17 @@
  * 
  */
 
-$theme_dir = get_template_directory_uri();
-
 /**
  * Request para Javascript
  */
-function ion_enqueue_js(){
+function ion_enqueue_scripts(){
 
-    wp_enqueue_script( 'ion-scritp', $theme_dir . '/assets/js/ion.js', aaray(), '1.0.0', true );
+    // Arquivo js padrão do tema
+    wp_enqueue_script( 'IonScript', get_template_directory_uri(). '/assets/js/ion.js', array(), '1.0.0', true );
+
+    // Arquivo CSS Padrão do tema
+    wp_enqueue_style( 'IonCss', get_template_directory_uri() . '/assets/css/ion.css', array(), '1.0.0', 'all' );
 
 }
 
-add_action( 'ion_enqueue_js' );
-
-/**
- * Raquest para Css
- */
-function ion_enqueue_css(){
-
-    wp_enqueue_style( 'ion-css', $theme_dir . '/assets/css/ion.css', array(), '1.0.0', 'all' );
-}
-
-add_action( '' );
+add_action( 'wp_enqueue_scripts', 'ion_enqueue_scripts' );

@@ -20,23 +20,21 @@
                 endif;
                 ?>
                 <div class="col-md">
-                    <a class="navbar-brand" href="<?php echo esc_url( home_url( '/' ) );?>"><img src="<?php echo esc_url( get_template_directory_uri() . 'images/logo-footer.svg' );?>" alt="Logotipo para rodapé do site"/></a>
-                    <p class="comercial-info"></p>
+                    <a class="navbar-brand" href="<?php echo esc_url( home_url( '/' ) );?>"><img src="<?php echo esc_url( get_bloginfo( 'template_url' ) . '/assets/images/logo-footer.svg' );?>" alt="Logotipo para rodapé do site"/></a>
+                    <span class="comercial-info"></span>
                     <?php 
-                    if( '' ):
-                        ion_get_element( 'nav', 'footer4' );
-                    endif;
+                    ion_get_element( 'nav', 'footer4' );
                     ?>
                 </div>
             </div>
-            <div class="row">
+            <div class="row copy-info bg-attention py-3">
                 <div class="col-md">
                 </div>
-                <div class="col-md">
-                    <p class=""></p>
+                <div class="col-md text-center">
+                    <span class=""><i class="fa-regular fa-copyright"></i> 2024. Todos os diretos reservados</span>
                 </div>
-                <div class="col-md">
-                    <a href="https://" target="_blank" rel="noopener noreferrer"><p class="">Criado com <i class="fa-solid fa-heart"></i> Por </p></a>
+                <div class="col-md text-end">
+                    <span class="">Criado com <i class="fa-solid fa-heart" style="color: #e02048;"></i> Por <a href="https://" target="_blank" rel="noopener noreferrer"></a></span>
                 </div>
             </div>
         </footer>

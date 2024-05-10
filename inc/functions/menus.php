@@ -18,7 +18,7 @@ function register_ion_menus(){
             'footer1' => 'Navegação 1 Rodapé',
             'footer2' => 'Navegação 2 Rodapé',
             'footer3' => 'Navegação 3 Rodapé',
-            'footer4' => 'Navegação 4 Rodapé'
+            'footer4' => 'Navegação de Redes Sociais'
         )
     );
 }
