@@ -1,0 +1,135 @@
+/*
+Edição própria de Css para todos os elementos do tema
+*/
+
+body div header nav main footer button table section aside h1 h2 h3 h4 h5 h6 abbr form input fieldset textarea blockquote cite col label optgroup select  ul li a p span {
+    font-family: "Roboto", sans-serif !important;
+    font-weight: 300 !important;
+    font-style: normal !important;
+}
+.bg-nav-top{
+    background-color: #00759e;
+}
+
+.create-message{
+    color: #fff !important;
+    text-decoration: none;
+}
+.create-message:hover{
+    color: #e1e6e3 !important;
+}
+
+.navbar-top-list{
+    .nav-item{
+        .nav-link{
+            color: #fff !important;
+        }
+        .nav-link:hover{
+            color: #e1e6e3 !important;
+        }
+    }
+}
+
+.bg-copyrights{
+    background-color: #00759e;
+    color: #fff !important;
+    font-size: .9rem !important;
+}
+
+.social-nav-title{
+    font-size: 1.25rem !important;
+}
+/*
+Estilo para redes sociais
+*/
+.social-navbar{
+    .nav-item{
+        font-size: 2rem !important;
+        .nav-link{
+            padding: 0 !important;
+            margin-left: .9rem !important;
+            margin-right: .9rem !important;
+            .fa-facebook{
+                color: #00759e;
+            }
+            .fa-instagram{
+                color: #3f729b;
+            }
+            .fa-x-twitter{
+                color: black;
+            }
+            .fa-tiktok{
+                color: black;
+            }
+            .fa-github{
+                color: black;
+            }
+            .fa-linkedin-in{
+                color: black;
+            }
+            .fa-whatsapp{
+                color: black;
+            }
+            .fa-snapchat{
+                color: black;
+            }
+        }
+        .nav-link:hover{
+            
+            .fa-facebook{
+                color: rgb(20, 20, 20);
+            }
+            .fa-instagram{
+                color: rgb(20, 20, 20);
+            }
+            .fa-x-twitter{
+                color: black;
+            }
+            .fa-tiktok{
+                color: black;
+            }
+            .fa-github{
+                color: black;
+            }
+            .fa-linkedin-in{
+                color: black;
+            }
+            .fa-whatsapp{
+                color: black;
+            }
+            .fa-snapchat{
+                color: black;
+            }
+        }
+    }
+}
+
+.nav-footer-title{
+    font-size: 1.25rem !important;
+    color: #00759e !important;
+}
+
+.nav-footer{
+    .nav-item{
+        .nav-link{
+            color: rgb(20, 20, 20) !important;
+            padding: .15rem !important;
+            font-size: .9rem !important;
+        }
+        .nav-link:hover{
+            color: #00759e !important;
+        }
+    }
+}
+
+.navbar-toggler{
+    color:#fff !important;
+    font-size: 1.8rem !important;
+    border: none !important;
+    transition: all 0.2s !important;
+}
+
+.navbar-toggler:focus{
+    box-shadow: none !important;
+    color: #e1e6e3 !important;
+}

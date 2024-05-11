@@ -8,8 +8,8 @@
  * @since 1.0.0
  * 
  */?>
-<div class="nav-socials">
-    <h4 class="">siga nas Redes Sociais</h4>
+<div class="nav-socials flex-column">
+    <h4 class="social-nav-title">siga nas Redes Sociais</h4>
     <?php 
     if( has_nav_menu( 'footer4' ) ){
 
@@ -18,7 +18,7 @@
                 'theme_location' => 'footer4',
                 'container'      => false,
                 'menu_id'        => 'NavSocial',
-                'menu_class'     => 'nav flex-column',
+                'menu_class'     => 'nav social-navbar d-flex justify-content-center',
                 'link_before'    => '<i class="fa-brands fa-',
                 'link_after'     => '"></i>'
             )

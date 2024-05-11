@@ -10,17 +10,21 @@
  */?>
 <!-- Barra de navegação Lateral -->
 <aside class="col-md-3">
-    <?php ion_get_element( 'form', 'search' );?>
-    <h3 class="">Navegue pelas opções</h3>
     <div class="">
         <?php 
-        wp_nav_menu(
-            array(
-                'theme_location' => 'side',
-                'container'      => false,
-                'menu_class'     => ''
-            )
-        );
+        if( has_nav_menu( 'side' ) ){
+
+            print '<h3 class="">Navegue pelas opções</h3>';
+
+            wp_nav_menu(
+                array(
+                    'theme_location' => 'side',
+                    'container'      => false,
+                    'menu_class'     => ''
+                )
+            );
+            
+        }
         ?>
     </div>
 </aside>
