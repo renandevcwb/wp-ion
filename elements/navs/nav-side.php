@@ -8,6 +8,7 @@
  * @since 1.0.0
  * 
  */?>
+ <div class="col-md-1 spacing-nav-side"></div>
 <!-- Barra de navegação Lateral -->
 <aside class="col-md-3">
     <div class="">

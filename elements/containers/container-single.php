@@ -16,7 +16,7 @@
 <!-- Início do corpo da página -->
 <div class="container-fluid">
     <main class="row">
-        <section class="col-md-9">
+        <section class="col-md-8">
             <?php 
             /**
              * The Loop

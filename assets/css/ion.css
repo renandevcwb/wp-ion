@@ -133,3 +133,22 @@ Estilo para redes sociais
     box-shadow: none !important;
     color: #e1e6e3 !important;
 }
+
+/*
+Cards para posts
+*/
+.all-post-card{
+    background-color: #f2f2f2;
+    text-decoration: none !important;
+    .card-title{
+        color: #00759e !important;
+        font-size: 1.25rem !important;
+    }
+    .card-text{
+
+    }
+}
+
+.all-post-card:hover{
+    box-shadow: 0rem .15rem #00759e;
+}
