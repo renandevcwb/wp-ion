@@ -8,9 +8,25 @@
  * @since 1.0.0
  * 
  */?>
-        <div class="container-fluid bg-primary pt-1">
+        <div class="container-fluid newsletter-footer bg-blue py-4">
+            <div class="container">
+                <div class="row text-white text-center">
+                    <h6 class="">Newsletter</h6>
+                    <p class="text-white">Fique por dentro do que acontece no mundo da pagramação!</p>
+                </div>
+                <div class="row">
+                <div class="col-md-3"></div>
+                <div class="col-md-6">
+                <form class="form-group d-flex">
+                    <input class="form-control border-0 rounded-0" type="email" name="news-email" placeholder="Digite seu email"/>
+                    <button type="submit" class="btn btn-primary border-0 rounded-0">Assinar</button>
+                </form>
+                </div>
+                <div class="col-md-3"></div>
+                </div>
+            </div>
         </div>
-        <footer class="container-fluid mt-3">
+        <footer class="container-fluid ion-bg-gray">
             <div class="row py-4">
                 <?php 
                 if( has_nav_menu( 'footer1' ) ):
@@ -36,7 +52,7 @@
                     </div>
                 </div>
             </div>
-            <div class="row copy-info bg-copyrights pt-2 pb-1 text-center">
+            <div class="row copyrights pt-2 pb-1 text-center">
                 <div class="col-md">
                 </div>
                 <div class="col-md text-center py-1">

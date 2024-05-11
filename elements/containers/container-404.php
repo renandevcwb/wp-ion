@@ -9,7 +9,7 @@
  * 
  */?>
 <!-- Cabeçalho de Página de Erro 404 -->
-<header class="container-fluid" id="">
+<header class="container-fluid d-flex align-items-center justify-content-center py-5" role="banner">
     <img class="img-fluid" src="<?php echo get_bloginfo( 'template_url' ) . '/assets/images/img-404.png';?>" alt="Mensagem de erro 404"/>
 </header>
 <!-- Fim do cabeçalho de Página de Erro 404 -->

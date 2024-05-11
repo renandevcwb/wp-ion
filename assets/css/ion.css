@@ -11,6 +11,13 @@ body div header nav main footer button table section aside h1 h2 h3 h4 h5 h6 abb
     background-color: #00759e;
 }
 
+.bg-blue{
+    background-color: #00759e;
+}
+.ion-bg-gray{
+    background-color: #f2f2f2;
+}
+
 .create-message{
     color: #fff !important;
     text-decoration: none;
@@ -30,10 +37,10 @@ body div header nav main footer button table section aside h1 h2 h3 h4 h5 h6 abb
     }
 }
 
-.bg-copyrights{
+.copyrights{
     background-color: #00759e;
     color: #fff !important;
-    font-size: .9rem !important;
+    font-size: .8rem !important;
 }
 
 .social-nav-title{
@@ -145,10 +152,36 @@ Cards para posts
         font-size: 1.25rem !important;
     }
     .card-text{
-
+        color: rgba(0, 0, 0, 0.37);
     }
 }
 
 .all-post-card:hover{
     box-shadow: 0rem .15rem #00759e;
+}
+
+.spacing-footer{
+    background-color: #00759e;
+}
+
+/*
+Modelo de caixa de pesquisa
+*/
+.search-form{
+    .search-input{
+        background-color: #f4f8e6 !important;
+        border-radius: 18px 0px 0px 18px;
+        border: none !important;
+    }
+}
+
+.button-search{
+    border-radius: 0px 18px 18px 0px;
+    border: none !important;
+    background-color: #f4f8e6;
+    color: darkslategray;
+}
+
+.button-search:hover{
+    background-color: #c9c9c9;
 }
