@@ -12,7 +12,7 @@
 <nav class="navbar navbar-expand-md bg-nav-top sticky-top" role="navigation">
     <div class="container-fluid">
         <div class="row w-100 m-0 p-0">
-            <div class="col-md-2 d-flex py-1 px-0 justify-content-between align-items-center">
+            <div class="col-md d-flex py-1 px-0 justify-content-between align-items-center">
                 <button class="navbar-toggler ns-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <i class="fa-solid fa-bars"></i>
                 </button>
@@ -25,10 +25,10 @@
                 </button>
                 </div>
             </div>
-            <div class="col-md-4 d-flex align-items-center justify-content-center">
+            <div class="col-md d-flex align-items-center justify-content-center">
                 <?php ion_get_element( 'form', 'search' );?>
             </div>
-            <div class="col-md-6 p-0 align-items-center d-flex">
+            <div class="col-md p-0 align-items-center d-flex">
                 <div class="collapse navbar-collapse d-md-flex justify-content-md-end justify-content-sm-center" id="navbarSupportedContent">
                 <?php 
                 if( has_nav_menu( 'top' ) ){
