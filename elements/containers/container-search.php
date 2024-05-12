@@ -18,16 +18,16 @@ $search_query = new WP_Query( $args );
 $search_count = $search_query->post_count;
 ?>
 <!-- Cabeçalho de Página de Busca -->
-<header class="container-fluid py-5" id="">
+<header class="container-fluid py-5">
     <div class="row d-flex align-items-center py-4">
         <div class="col text-center">
             <?php 
             if( !$search_query->have_posts() ){
-                print '<h1 class="">Sem resultados para a sua busca.</h1>';
+                print '<h1 class="post-title">Sem resultados para a sua busca.</h1>';
             }elseif( $search_query->have_posts() && $search_count == '1' ){
-                print '<h1 class="">Foi encontrado 1 resultado para a sua busca.</h1>';
+                print '<h1 class="post-title">Foi encontrado 1 resultado para a sua busca.</h1>';
             }elseif( $search_query->have_posts() && $search_count >= '2' ){
-                print '<h1 clas="">Foram encontrados ' . $search_count . ' resultados para a sua busca.</h1>';
+                print '<h1 clas="post-title">Foram encontrados ' . $search_count . ' resultados para a sua busca.</h1>';
             }
             ?>
         </div>

@@ -8,11 +8,15 @@
  * @since 1.0.0
  * 
  */?>
-<!-- Cabeçalho de Arquivos -->
-<header class="container-fluid" id="">
-    <h1 class=""></h1>
+<!-- Cabeçalho de Postagem -->
+<header class="container-fluid py-5">
+    <div class="row d-flex align-items-center text-center">
+        <h1 class="post-title">
+            <?php echo esc_html( get_the_category() );?>
+        </h1>
+    </div>
 </header>
-<!-- Fim do cabeçalho de Arquivos -->
+<!-- Fim do cabeçalho de Postagem -->
 <!-- Início do corpo da página -->
 <div class="container-fluid">
     <main class="row">

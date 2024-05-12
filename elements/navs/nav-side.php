@@ -11,22 +11,17 @@
  <div class="col-md-1 spacing-nav-side"></div>
 <!-- Barra de navegação Lateral -->
 <aside class="col-md-3">
-    <div class="">
-        <?php 
-        if( has_nav_menu( 'side' ) ){
-
-            print '<h3 class="">Navegue pelas opções</h3>';
-
-            wp_nav_menu(
-                array(
-                    'theme_location' => 'side',
-                    'container'      => false,
-                    'menu_class'     => ''
-                )
-            );
-            
-        }
-        ?>
-    </div>
+    <h3 class="side-title">Navegue pelas opções</h3>
+    <?php 
+    if( has_nav_menu( 'side' ) ){
+        wp_nav_menu(
+            array(
+                'theme_location' => 'side',
+                'container'      => false,
+                'menu_class'     => 'nav flex-column navbar-side'
+            )
+        );    
+    }
+    ?>
 </aside>
 <!-- Fim da Barra de Navegação Lateral -->

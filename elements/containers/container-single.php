@@ -9,8 +9,12 @@
  * 
  */?>
 <!-- Cabeçalho de Postagem -->
-<header class="container-fluid" id="">
-    <h1 class="">Blog Oficial</h1>
+<header class="container-fluid py-5">
+    <div class="row d-flex align-items-center text-center">
+        <h1 class="post-title">
+            <?php echo esc_html( the_title() );?>
+        </h1>
+    </div>
 </header>
 <!-- Fim do cabeçalho de Postagem -->
 <!-- Início do corpo da página -->
