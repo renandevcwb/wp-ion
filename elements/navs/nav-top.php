@@ -9,7 +9,7 @@
  * 
  */?>
 <!-- Barra de Navegação Superior -->
-<nav class="navbar navbar-expand-md bg-nav-top sticky-top" role="navigation">
+<nav class="navbar navbar-expand-md bg-nav-top" role="navigation">
     <div class="container-fluid">
         <div class="row w-100 m-0 p-0">
             <div class="col-md d-flex py-1 px-0 justify-content-between align-items-center">
